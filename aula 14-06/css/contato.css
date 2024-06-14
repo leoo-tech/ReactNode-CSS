@@ -57,6 +57,13 @@ nav a:hover {
     /* Adiciona sublinhado ao passar o mouse */
 }
 
+main {
+    max-width: 960px;
+    /* Largura máxima para centralizar o conteúdo */
+    margin: 0 auto;
+    /* Centraliza o conteúdo horizontalmente */
+}
+
 /* Reset básico para ul e li */
 ul,
 li {
@@ -125,4 +132,33 @@ li {
 #contato button:hover {
     background-color: #0056b3;
     /* Cor mais escura ao passar o mouse */
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato form label {
+    margin-bottom: 5px;
+}
+
+#contato form input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#contato form textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* Estilização do rodapé - index */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: relative;
 }

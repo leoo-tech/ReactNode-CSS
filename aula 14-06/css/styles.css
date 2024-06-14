@@ -57,6 +57,15 @@ nav a:hover {
     /* Adiciona sublinhado ao passar o mouse */
 }
 
+main {
+    max-width: 960px;
+    /* Largura máxima para centralizar o conteúdo */
+    margin: 0 auto;
+    /* Centraliza o conteúdo horizontalmente */
+    padding: 20px;
+    /* Espaçamento interno para respiro */
+}
+
 /* card apresentação */
 
 #apresentacao {
@@ -139,7 +148,7 @@ li {
     list-style: none;
 }
 
-/* pagina contatos */
+/* seção contatos */
 
 #contato {
     background-color: #f0f0f0;
