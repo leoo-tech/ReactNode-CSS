@@ -1,0 +1,72 @@
+/* pagina projetos */
+/* Reset básico para ul e li */
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#projetos {
+    background-color: #f0f0f0;
+    /* Fundo cinza claro */
+    padding: 20px;
+    /* Espaçamento interno */
+    margin: 20px 0;
+    /* Espaçamento externo */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+}
+
+#projetos .material-symbols-outlined {
+    font-size: 48px;
+    /* Ajusta o tamanho do ícone */
+    color: #007bff;
+    /* Cor do ícone */
+    text-align: center;
+    /* Centraliza o ícone */
+    display: block;
+    /* Faz o ícone ocupar uma linha inteira */
+}
+
+#projetos h2 {
+    color: #333;
+    /* Cor escura para o texto */
+    text-align: center;
+    /* Centraliza o título */
+    margin-bottom: 20px;
+    /* Espaçamento abaixo do título */
+}
+
+.projeto {
+    margin-bottom: 20px;
+    /* Espaçamento entre projetos */
+}
+
+.projeto img {
+    width: 100px;
+    /* Largura fixa para as imagens */
+    height: auto;
+    /* Altura automática para manter a proporção */
+    border-radius: 50%;
+    /* Bordas arredondadas */
+    display: block;
+    /* Faz a imagem ocupar uma linha inteira */
+    margin: 0 auto 10px;
+    /* Centraliza a imagem e adiciona espaço abaixo */
+}
+
+.projeto a {
+    color: #007bff;
+    /* Cor azul para os links */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+}
+
+.projeto a:hover {
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+}
