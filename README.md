@@ -1,3 +1,1 @@
-## hub principal das aulas html css
-<hr/>
-futuramente, terão as aulas de javascript
+## hub principal das aulas css
