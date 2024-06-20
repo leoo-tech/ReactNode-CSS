@@ -52,7 +52,7 @@ button:hover {
 
 .cadastro {
     padding: 16px;
-    width: 300px;
+    width: 50%;
     margin: auto;
 }
 
@@ -137,6 +137,8 @@ th {
     .cronograma {
         width: 100%;
         overflow-x: auto;
+        padding: auto;
+        margin: auto;
     }
 
     .contato-whatsapp {
@@ -167,4 +169,25 @@ th {
     }
 }
 
-/* Desktops (mais de 900px) - Estilos padrão já são adequados, mas ajustes específicos podem ser adicionados se necessário */
+/* desktops - a partir de 900px */
+
+/* Desktops (900px a 1199px) */
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .cabecalho {
+        height: 300px;
+    }
+
+    .titulo {
+        font-size: 3.5rem;
+    }
+
+    .cadastro {
+        width: 60%;
+    }
+
+    .cronograma {
+        width: 90%;
+        overflow-x: none;
+    }
+}
